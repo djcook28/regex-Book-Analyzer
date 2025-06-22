@@ -1,7 +1,7 @@
 import re
 import nltk
 from nltk.corpus import stopwords
-nltk.download('stopwords')
+nltk.download('stopwordsz')
 
 def count_all_words(book):
     # find all unique words in book
